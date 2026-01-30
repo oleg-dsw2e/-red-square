@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Красный квадрат</h1>
+
+<div class="container">
+    <div class="controls">
+    <label>
+    R:
+    <input type="number" id="r" min="0" max="255" value="255">
+    </label>
+
+    <label>
+    G:
+    <input type="number" id="g" min="0" max="255" value="0">
+    </label>
+
+    <label>
+    B:   
+    <input type="number" id="b" min="0" max="255" value="0">
+    </label>
+
+    <button onclick="Color()">Применить</button>
+
+</div>
+
+    <div class="square" id="square"></div>
+
+</div>
+
+    <script src="/main.js"></script>
+</body>
+    
+</html>
